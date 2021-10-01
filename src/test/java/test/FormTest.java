@@ -25,8 +25,10 @@ public class FormTest {
         $("#userEmail").setValue("7152955@gmail.com");
         $("label[for='gender-radio-1']").click();
         $("#userNumber").setValue("1234567890");
-
-
+        $("#dateOfBirthInput").click();
+        $(".react-datepicker__month-select").selectOption("April");
+        $(".react-datepicker__year-select").selectOption("1989");
+        $("#submit").click();
 
     }
 }
