@@ -38,5 +38,8 @@ public class FormTest {
         $("#stateCity-wrapper").$(byText("Delhi")).click();
         $("#submit").click();
         $("#submit").click();
+        $(".modal-title").shouldHave(text("Thanks for submitting the form"));
+        $(".table-responsive").shouldHave(text("Victor Rybakov"), text("7152955@gmail.com")text("10 April,1989"));
+
     }
 }
